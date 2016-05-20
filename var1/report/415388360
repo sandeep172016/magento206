@@ -1,0 +1,16 @@
+a:4:{i:0;s:794:"Please upgrade your database: Run "bin/magento setup:upgrade" from the Magento root directory. 
+The following modules are outdated:
+Magento_SwatchesSampleData data: current version - none, required version - 2.0.0
+Magento_GroupedProductSampleData data: current version - none, required version - 2.0.0
+Magento_TaxSampleData data: current version - none, required version - 2.0.0
+Magento_CmsSampleData data: current version - none, required version - 2.0.0
+Magento_CatalogRuleSampleData data: current version - none, required version - 2.0.0
+Magento_SalesRuleSampleData data: current version - none, required version - 2.0.0
+Magento_WidgetSampleData data: current version - none, required version - 2.0.0
+Magento_WishlistSampleData data: current version - none, required version - 2.0.0";i:1;s:975:"#0 [internal function]: Magento\Framework\Module\Plugin\DbStatusValidator->aroundDispatch(Object(Magento\Framework\App\FrontController\Interceptor), Object(Closure), Object(Magento\Framework\App\Request\Http))
+#1 D:\server\htdocs\magento206\lib\internal\Magento\Framework\Interception\Interceptor.php(141): call_user_func_array(Array, Array)
+#2 D:\server\htdocs\magento206\var\generation\Magento\Framework\App\FrontController\Interceptor.php(26): Magento\Framework\App\FrontController\Interceptor->___callPlugins('dispatch', Array, Array)
+#3 D:\server\htdocs\magento206\lib\internal\Magento\Framework\App\Http.php(115): Magento\Framework\App\FrontController\Interceptor->dispatch(Object(Magento\Framework\App\Request\Http))
+#4 D:\server\htdocs\magento206\lib\internal\Magento\Framework\App\Bootstrap.php(258): Magento\Framework\App\Http->launch()
+#5 D:\server\htdocs\magento206\index.php(39): Magento\Framework\App\Bootstrap->run(Object(Magento\Framework\App\Http))
+#6 {main}";s:3:"url";s:116:"/magento206/admin_j7sow0/catalog/product/index/key/c077837931f4804588ab34c00a52764ebe6d6d43bf244e55d860c2d58a6889f4/";s:11:"script_name";s:21:"/magento206/index.php";}

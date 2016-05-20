@@ -1,0 +1,20 @@
+a:4:{i:0;s:466:"Please upgrade your database: Run "bin/magento setup:upgrade" from the Magento root directory. 
+The following modules are outdated:
+Magento_CatalogRuleSampleData data: current version - none, required version - 2.0.0
+Magento_SalesRuleSampleData data: current version - none, required version - 2.0.0
+Magento_WidgetSampleData data: current version - none, required version - 2.0.0
+Magento_WishlistSampleData data: current version - none, required version - 2.0.0";i:1;s:2712:"#0 [internal function]: Magento\Framework\Module\Plugin\DbStatusValidator->aroundDispatch(Object(Magento\Framework\App\FrontController\Interceptor), Object(Closure), Object(Magento\Framework\App\Request\Http))
+#1 D:\server\htdocs\magento206\lib\internal\Magento\Framework\Interception\Chain\Chain.php(68): call_user_func_array(Array, Array)
+#2 D:\server\htdocs\magento206\lib\internal\Magento\Framework\Interception\Chain\Chain.php(63): Magento\Framework\Interception\Chain\Chain->invokeNext('Magento\\Framewo...', 'dispatch', Object(Magento\Framework\App\FrontController\Interceptor), Array, 'front-controlle...')
+#3 D:\server\htdocs\magento206\app\code\Magento\PageCache\Model\App\FrontController\BuiltinPlugin.php(68): Magento\Framework\Interception\Chain\Chain->Magento\Framework\Interception\Chain\{closure}(Object(Magento\Framework\App\Request\Http))
+#4 [internal function]: Magento\PageCache\Model\App\FrontController\BuiltinPlugin->aroundDispatch(Object(Magento\Framework\App\FrontController\Interceptor), Object(Closure), Object(Magento\Framework\App\Request\Http))
+#5 D:\server\htdocs\magento206\lib\internal\Magento\Framework\Interception\Chain\Chain.php(68): call_user_func_array(Array, Array)
+#6 D:\server\htdocs\magento206\lib\internal\Magento\Framework\Interception\Interceptor.php(136): Magento\Framework\Interception\Chain\Chain->invokeNext('Magento\\Framewo...', 'dispatch', Object(Magento\Framework\App\FrontController\Interceptor), Array, 'front-controlle...')
+#7 D:\server\htdocs\magento206\app\code\Magento\PageCache\Model\App\FrontController\VarnishPlugin.php(55): Magento\Framework\App\FrontController\Interceptor->Magento\Framework\Interception\{closure}(Object(Magento\Framework\App\Request\Http))
+#8 [internal function]: Magento\PageCache\Model\App\FrontController\VarnishPlugin->aroundDispatch(Object(Magento\Framework\App\FrontController\Interceptor), Object(Closure), Object(Magento\Framework\App\Request\Http))
+#9 D:\server\htdocs\magento206\lib\internal\Magento\Framework\Interception\Interceptor.php(141): call_user_func_array(Array, Array)
+#10 D:\server\htdocs\magento206\var\generation\Magento\Framework\App\FrontController\Interceptor.php(26): Magento\Framework\App\FrontController\Interceptor->___callPlugins('dispatch', Array, Array)
+#11 D:\server\htdocs\magento206\lib\internal\Magento\Framework\App\Http.php(115): Magento\Framework\App\FrontController\Interceptor->dispatch(Object(Magento\Framework\App\Request\Http))
+#12 D:\server\htdocs\magento206\lib\internal\Magento\Framework\App\Bootstrap.php(258): Magento\Framework\App\Http->launch()
+#13 D:\server\htdocs\magento206\index.php(39): Magento\Framework\App\Bootstrap->run(Object(Magento\Framework\App\Http))
+#14 {main}";s:3:"url";s:12:"/magento206/";s:11:"script_name";s:21:"/magento206/index.php";}
